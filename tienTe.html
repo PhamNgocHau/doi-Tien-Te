@@ -64,9 +64,9 @@
             let select2 = document.getElementById("select2").value;
             let amount = document.getElementById("amount").value;
             if(select1 === "vnd" && select2 ==="usd"){
-                document.getElementById("result").innerHTML="Result: "+amount*23000+"VND";
+                document.getElementById("result").innerHTML="Result: "+amount/23000+"VND";
             }else if(select1 === "usd" && select2 === "vnd" ){
-                document.getElementById("result").innerHTML="Result: "+amount/23000+"USD";
+                document.getElementById("result").innerHTML="Result: "+amount*23000+"USD";
             }
         }
     </script>
